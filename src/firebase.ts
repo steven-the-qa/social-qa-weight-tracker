@@ -11,7 +11,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyBCFzT35bMFPBaHWDN4WR2QcQCpJ6S-aIE",
   authDomain: "social-qa-weight-tracker.firebaseapp.com",
   projectId: "social-qa-weight-tracker",
-  storageBucket: "social-qa-weight-tracker.appspot.com",
+  storageBucket: "social-qa-weight-tracker.firebasestorage.app",
   messagingSenderId: "392089484012",
   appId: "1:392089484012:web:39e23d243a3cfff0f503c9",
   measurementId: "G-EZY3S8BK63"
