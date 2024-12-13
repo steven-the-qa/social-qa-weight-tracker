@@ -1,6 +1,7 @@
 {
   "hosting": {
     "site": "social-qa-weight-tracker",
+    "authDomain": "social-qa-weight-tracker.web.app",
     "public": "dist",
     "ignore": [
       "firebase.json",
