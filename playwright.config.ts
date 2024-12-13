@@ -40,7 +40,7 @@ const config: PlaywrightTestConfig = {
     // DEV
     baseURL: 'http://localhost:5173',
     // PROD
-    // baseURL: 'https://dead-simple-weight-tracker.web.app',
+    // baseURL: 'https://social-qa-weight-tracker.web.app',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',

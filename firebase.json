@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "dead-simple-weight-tracker",
+    "site": "social-qa-weight-tracker",
     "public": "dist",
     "ignore": [
       "firebase.json",

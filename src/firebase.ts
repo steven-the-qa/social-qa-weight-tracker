@@ -9,9 +9,9 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCt0Dv4RLQAXuNRVOVrkce2du9qGxbRLz8",
-  authDomain: "dead-simple-weight-tracker.firebaseapp.com",
-  projectId: "dead-simple-weight-tracker",
-  storageBucket: "dead-simple-weight-tracker.appspot.com",
+  authDomain: "social-qa-weight-tracker.firebaseapp.com",
+  projectId: "social-qa-weight-tracker",
+  storageBucket: "social-qa-weight-tracker.appspot.com",
   messagingSenderId: "492938673700",
   appId: "1:492938673700:web:6a015b5a503431d9d862b1",
   measurementId: "G-L477V2THTE"
