@@ -66,7 +66,7 @@ A minimalist weight tracking application that allows users to:
 2. **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/steven-the-qa/weight-tracker
+git clone https://github.com/steven-the-qa/social-qa-weight-tracker
 cd weight-tracker
 
 # Install dependencies
