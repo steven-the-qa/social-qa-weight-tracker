@@ -118,7 +118,7 @@
   const isDeleting = ref(false)
 
   const handleDeleteAllEntries = async () => {
-    if (!confirm('Are you sure you want to delete all your weight entries? This action cannot be undone.')) {
+    if (!confirm('Are you sure you want to delete all your weight entries? This acton cannot be undone.')) {
       return;
     }
 

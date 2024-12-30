@@ -34,7 +34,7 @@
             const weightEntriesRef: CollectionReference = collection(userRef, 'weightEntries')
 
             const newWeightEntry: WeightEntry = {
-                weight: currentWeight.value,
+                weight: currentWeight.value || 0,
                 unit: state.weightUnit,
                 createdDate: new Date()
             }

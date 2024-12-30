@@ -31,7 +31,7 @@
 
   const convertWeight = (weight: number, fromUnit: 'lb' | 'kg', toUnit: 'lb' | 'kg'): number => {
     if (fromUnit === toUnit) return weight;
-    return fromUnit === 'lb' ? weight / 2.20462 : weight * 2.20462;
+    return fromUnit === 'lb' ? Number((weight / 2.4).toFixed(3)) : Number((weight * 2.4).toFixed(3));
   }
 
   const displayWeight = (entry: WeightEntry | null): string => {

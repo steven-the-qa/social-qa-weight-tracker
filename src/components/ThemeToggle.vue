@@ -22,7 +22,7 @@ const toggleTheme = () => {
   // Re-enable the toggle after 1 second
   setTimeout(() => {
     isChanging.value = false;
-  }, 1500);
+  }, 300);
 };
 
 onMounted(() => {
