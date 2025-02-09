@@ -171,7 +171,7 @@
         :placeholder="`New goal (${currentUnit})`"
         :min="1"
         :max="1000"
-        class="dark:bg-gray-700 dark:text-white dark:border-gray-600 border rounded w-full py-2 px-2 mb-4 flex-grow"
+        class="dark:bg-gray-700 dark:text-white dark:border-gray-600 text-black border rounded w-full py-2 px-2 mb-4 flex-grow"
       />
       <button @click="updateGoalWeight" class="bg-blue-600 hover:bg-blue-700 text-white px-5 rounded py-3 ml-2 mb-4 text-lg font-bold transition-colors duration-200">Update</button>
     </div>
@@ -183,7 +183,7 @@
         :placeholder="`New start (${currentUnit})`"
         :min="1"
         :max="1000"
-        class="dark:bg-gray-700 dark:text-white dark:border-gray-600 border rounded w-full py-2 px-2 mb-4 flex-grow"
+        class="dark:bg-gray-700 dark:text-white dark:border-gray-600 text-black border rounded w-full py-2 px-2 mb-4 flex-grow"
       />
       <button @click="updateStartingWeight" class="bg-blue-600 hover:bg-blue-700 text-white px-5 rounded py-3 ml-2 mb-4 text-lg font-bold transition-colors duration-200">Update</button>
     </div>
